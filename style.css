@@ -1,0 +1,42 @@
+body {
+background-color: rgb(142, 223, 62);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.webStyle{
+ /*box model*/
+ border:rgb(17, 12, 65) 1px solid;
+ padding: 1em;
+ margin: 1em;
+ margin-left: 0cm;
+ border-radius: 0.5cm;
+}
+
+.medium_pizza {
+    background-color: rgb(216, 55, 125);
+}
+
+.large_pizza {
+    background-color: rgb(170, 36, 126);
+    
+}
+
+.small_pizza {
+    background-color: coral;
+}
+
+.contacts {
+    background-color: darksalmon;
+     }
+
+     @media (min-width: 960px) {
+        body {
+            background-color: rgb(44, 175, 55);
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+            }
+            .pizzas {
+                display: flex;
+                }
+
+     }
